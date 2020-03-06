@@ -1,0 +1,2 @@
+rootProject.name='Remind4Me'
+include ':app'
