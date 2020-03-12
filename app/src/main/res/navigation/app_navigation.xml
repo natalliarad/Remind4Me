@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/fragment_events">
+
+    <fragment
+        android:id="@+id/fragment_events"
+        android:name="com.natallia.radaman.remind4me.eventsForRemind.EventsForRemindFragment"
+        android:label="Remind for Me"
+        tools:layout="@layout/fragment_events_for_remind">
+        <action
+            android:id="@+id/action_from_events_to_onboarding"
+            app:destination="@id/fragment_onboarding"
+            app:exitAnim="@anim/slide_out_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_onboarding"
+        android:name="com.natallia.radaman.remind4me.onboarding.OnboardingFragment"
+        android:label="Start planning"
+        tools:layout="@layout/fragment_onboarding" />
+</navigation>
