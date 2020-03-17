@@ -23,7 +23,7 @@
         android:paddingBottom="@dimen/padding_normal">
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/intro_start"
+            android:id="@+id/onboarding_go_button"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/button_height_standard"
             android:backgroundTint="@color/green_600"

@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">Remind4Me</string>
 
-    <string name="onboarding_go">Let\'s goL</string>
+    <!--  Onboarding  -->
+    <string name="onboarding_go">Let\'s go!</string>
+    <string name="onboarding_welcome_title">Welcome to Remind4Me!</string>
+    <string name="onboarding_welcome_summary">Track your events efficiently.</string>
+    <string name="onboarding_welcome_event_control_title">Event Monitoring</string>
+    <string name="onboarding_welcome_event_control_summary">The event has a reminder up to a second, supports swipe gestures and different display modes.</string>
 </resources>

@@ -6,4 +6,9 @@
     <color name="neutral_white">#ffffff</color>
 
     <color name="green_600">#43a047</color>
+
+    <!--  Black scale  -->
+    <color name="black">#000000</color>
+    <color name="black_primary">#E0000000</color>
+    <color name="black_secondary">#80000000</color>
 </resources>
